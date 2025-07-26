@@ -8,6 +8,6 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.INFO)
-    app = ApplicationBuilder().token("PASTE_YOUR_BOT_TOKEN_HERE").build()
+    app = ApplicationBuilder().token("8426051407:AAEH7IjKqvpbBp6iduaMUGxjnWzH0-94n7k").build()
     app.add_handler(CommandHandler("start", start))
     app.run_polling()
